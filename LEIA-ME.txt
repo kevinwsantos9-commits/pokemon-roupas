@@ -1,0 +1,10 @@
+COMO COMPILAR (so 2 coisas para enviar ao GitHub)
+
+1. Crie um repositorio novo no GitHub (pode ser privado).
+2. Envie para a raiz dele:  overlay.zip   e a pasta  .github  (com workflows/build.yml dentro).
+   - Se o site nao deixar enviar a pasta .github: "Add file > Create new file", digite
+     .github/workflows/build.yml como nome e cole o conteudo do build.yml.
+3. Aba Actions > "Compilar ROM (FireRed + Roupas)" > Run workflow (ou ele roda sozinho ao enviar).
+4. Em ~10 min, abra a execucao concluida e baixe o artefato "pokefirered-roupas": la esta o pokefirered.gba.
+
+O GitHub baixa o pokefirered original sozinho; voce nao envia ROM nem milhares de arquivos.
